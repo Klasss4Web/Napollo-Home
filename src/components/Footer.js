@@ -59,9 +59,9 @@ export default function Footer() {
         <div className="footer-social">
           <h6>Follow Us</h6>
           <div className="footer-social__icon">
-          <Link to="https://facebook.com"><i class="fab fa-facebook"></i></Link>
-          <Link to="https://twitter.com"><i class="fab fa-twitter left-margin-sm"></i></Link>
-          <Link to="https://instagram.com"><i class="fab fa-instagram left-margin-sm"></i></Link>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter left-margin-sm"></i>
+          <i class="fab fa-instagram left-margin-sm"></i>
           </div>
           <h6>Download App</h6>
           <div className="footer-download__app">
