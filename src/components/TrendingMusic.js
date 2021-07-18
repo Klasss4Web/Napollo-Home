@@ -15,11 +15,11 @@ export default function TrendingMusic() {
         <div>
           <h3>Listen and enjoy all trending music</h3>
           <div>
-            <ul>
-              <li>What's hot</li>
-              <li>By genre</li>
-              <li>By location</li>
-              <li>Lot's more...</li>
+            <ul className="trending-music__list">
+              <li><span className="trending-music__bullet">What's hot</span></li>
+              <li><span className="trending-music__bullet">By genre</span></li>
+              <li><span className="trending-music__bullet">By location</span></li>
+              <li><span className="trending-music__bullet">Lot's more...</span></li>
             </ul>
           </div>
           <button className="btn btn-listening">Start listening</button>
