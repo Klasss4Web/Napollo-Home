@@ -7,7 +7,7 @@ h3 {
 
 .get-started {
   position: relative;
-  top: 65px;
+  top: 60px;
   max-width: 100%; 
   background: url("../images/background.jpg") no-repeat center;
   background-size: cover;
@@ -685,7 +685,7 @@ h3 {
 /***********************Trending Music Styles******************/
 .trending-music {
   position: relative;
-  top: 70px;
+  top: 60px;
   background:#f68426;
   color: #000;
   padding-left: 20px;
@@ -1153,7 +1153,7 @@ h3 {
 /*****************Testimonials*********************/
 .testimonials {
   position: relative;
-  top: 70px;
+  top: 60px;
   background: #000;
   padding-top: 100px;
   padding-bottom: 100px;
