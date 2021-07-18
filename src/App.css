@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.App {
+  /* text-align: center; */
+  /* color: #5b5b5b; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-area {
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+.header-logo {
+  display: flex;
+  margin-left: 15%;
+}
+
+
+.header-logo__first {
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#feee3e,#ec2417);
+  border-radius: 25px;
+  margin-right: 1px;
+  margin-top: 10px;
+}
+
+.header-logo__second {
+  width: 3px;
+  height: 10px;
+  background: linear-gradient(#feee3e,#ec2417);
+  border-radius: 25px;
+  margin-right: 1px;
+  margin-top: 13px;
+}
+
+.header-logo__third {
+  width: 4px;
+  height: 30px;
+  background: linear-gradient(#feee3e,#ec2417);
+  border-radius: 25px;
+  margin-right: 3px;
+  margin-top: 5px;
+}
+
+.header-logo__fourth {
+  width: 3px;
+  height: 40px;
+  background: linear-gradient(#feee3e,#ec2417);
+  border-radius: 25px;
+  margin-left: 1px;
+  margin-top: -1px;
+}
+
+.header-logo__fifth {
+  width: 3px;
+  height: 8px;
+  background: linear-gradient(#feee3e,#ec2417);
+  border-radius: 25px;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+.header-logo__sixth {
+  width: 3px;
+  height: 30px;
+  background: linear-gradient(#feee3e,#ec2417);
+  border-radius: 25px;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+
+.link {
+  color: #fff;
+}
+
+
+/********************NavBar*****************************/
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  padding: 20px 30px;
+  background: #1a1a1a;
+  color: #fff;
+  z-index: 100;
+}
+
+.input-area {
+  width: 90%;
+  padding: 7px 20px;
+  background: #999;
+  border-radius: 30px;
+  opacity: 0.4;
+}
+
+.input-area input {
+  width: 95%;
+  background: inherit;
+  color: #fff;
+  border: none;
+}
+
+input:focus {
+  outline: none
+}
+
+.search-icon {
+  width: 5%;
+  color: #fff;
+  opacity: 1
+}
+
+.far {
+  color: #fff;
+}
+
+.download-stores img {
+  width: 50%;
+}
+
+.btn-upload {
+  padding: 6px 30px;
+  background: linear-gradient(#feee3e,#f68426);
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
