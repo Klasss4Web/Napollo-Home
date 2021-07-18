@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+img {
+  max-width: 100%;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+/* 
+html, body {
+  overflow-x: hidden;
+} */
+
 .App {
   font-family: "Roboto", sans-serif;
 }
@@ -10,9 +29,7 @@
   background: #000;
 }
 
-.header-logo {
-  /* display: flex; */
-  margin-left: 15%;
+.logo-h {
   display: none;
 }
 
@@ -81,6 +98,10 @@
   color: orange;
 }
 
+.upload {
+  display: none
+}
+
 
 /********************NavBar*****************************/
 .nav-container {
@@ -90,7 +111,7 @@
   right: 0;
   width: 100%;
   height: auto;
-  padding: 20px 30px;
+  padding: 15px;
   background: #1a1a1a;
   color: #fff;
   z-index: 100;
@@ -98,7 +119,7 @@
 
 .input-area {
   width: 90%;
-  padding: 7px 20px;
+  padding: 5px 20px;
   background: #999;
   border-radius: 30px;
   opacity: 0.4;
@@ -143,6 +164,11 @@ input:focus {
 
 
 @media (min-width: 600px) {
+
+  .logo-h {
+    display: block;
+  }
+  
   
  .header-logo {
    display: flex;
@@ -212,6 +238,9 @@ input:focus {
   color: orange;
 }
 
+.upload {
+  display: block;
+}
 
 /********************NavBar*****************************/
 .nav-container {
