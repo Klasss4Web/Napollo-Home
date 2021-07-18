@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./ComponentStyles.css";
 
@@ -26,41 +27,41 @@ export default function Footer() {
         
         <div className="footer-napollo">
           <h6>Napollo</h6>
-          <small>About</small><br />
-          <small>Sign Up</small><br />
-          <small>Forgot Password</small><br />
-          <small>Contact</small><br />
+          <Link to="/about" className="link"><small>About</small><br /></Link>
+          <Link to="/signUp" className="link"><small>Sign Up</small><br /></Link>
+          <Link to="/forgot-password" className="link"><small>Forgot Password</small><br /></Link>
+          <Link to="/contact" className="link"><small>Contact</small><br /></Link>
         </div>
         <div className="footer-membership">
           <h6>Artist Membership</h6>
-          <small>Overview</small><br />
-          <small>Pricing</small><br />
-          <small>Opportunities</small><br />
-          <small>Shows</small><br />
-          <small>Help</small><br />
+          <Link to="/overview" className="link"><small>Overview</small><br /></Link>
+          <Link to="/pricing" className="link"><small>Pricing</small><br /></Link>
+          <Link to="/opportunities" className="link"><small>Opportunities</small><br /></Link>
+          <Link to="/shows" className="link"><small>Shows</small><br /></Link>
+          <Link to="/help" className="link"><small>Help</small><br /></Link>
         </div>
         <div className="footer-listener">
           <h6>Listener</h6>
-          <small>Overview</small><br />
-          <small>Pricing</small><br />
-          <small>Suggested Playlist</small><br />
-          <small>Discover</small><br />
-          <small>Reviews</small><br />
+          <Link to="/overview" className="link"><small>Overview</small><br /></Link>
+          <Link to="/pricing" className="link"><small>Pricing</small><br /></Link>
+          <Link to="/playlist" className="link"><small>Suggested Playlist</small><br /></Link>
+          <Link to="/discover" className="link"><small>Discover</small><br /></Link>
+          <Link to="/reviews" className="link"><small>Reviews</small><br /></Link>
         </div>
         <div className="footer-listener">
           <h6>Listener</h6>
-          <small>Terms of Service</small><br />
-          <small>Privacy Policy</small><br />
-          <small>Copyright Privacy</small><br />
-          <small>Cookies</small><br />
-          <small>Trademark</small><br />
+          <Link to="/terms" className="link"><small>Terms of Service</small><br /></Link>
+          <Link to="/privacy-policy" className="link"><small>Privacy Policy</small><br /></Link>
+          <Link to="/copyright-policy" className="link"><small>Copyright Privacy</small><br /></Link>
+          <Link to="/cookies" className="link"><small>Cookies</small><br /></Link>
+          <Link to="/trademark" className="link"><small>Trademark</small><br /></Link>
         </div>
         <div className="footer-social">
           <h6>Follow Us</h6>
           <div className="footer-social__icon">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter left-margin-sm"></i>
-            <i class="fab fa-instagram left-margin-sm"></i>
+          <Link to="https://facebook.com"><i class="fab fa-facebook"></i></Link>
+          <Link to="https://twitter.com"><i class="fab fa-twitter left-margin-sm"></i></Link>
+          <Link to="https://instagram.com"><i class="fab fa-instagram left-margin-sm"></i></Link>
           </div>
           <h6>Download App</h6>
           <div className="footer-download__app">

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .App {
-  /* text-align: center; */
-  /* color: #5b5b5b; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -78,6 +76,11 @@
 }
 
 
+.link:hover {
+  color: orange;
+}
+
+
 /********************NavBar*****************************/
 .nav-container {
   position: fixed;
@@ -132,4 +135,5 @@ input:focus {
   border-radius: 25px;
   font-weight: 500;
 }
+
 

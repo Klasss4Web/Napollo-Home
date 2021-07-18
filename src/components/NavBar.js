@@ -29,7 +29,6 @@ const NavBar = () => {
             </div>
           </div>
           <div className="col-md-2 download-stores">
-            {/* <img src={appStore} alt="" /> */}
             <img src={appStoreImg} alt="" />
             <img src={playStoreImg} alt="" />
           </div>
